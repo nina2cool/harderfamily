@@ -1,0 +1,42 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Chelsea Market', cursive;
+}
+
+.bg-dark {
+ background-color: #41cfeb !important;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .card-header {
+    height: 200px;
+    text-align: center;
+  }
+
+  .emma {
+    font-family: 'Princess Sofia';
+    font-size: 31px;
+  }
+
+  .emma-image {
+    width: 20%;
+    position: absolute;
+    transform: translate3d(86px,-179px,0px);
+  }
