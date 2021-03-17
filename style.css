@@ -24,19 +24,105 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 3.5rem;
     }
   }
+  .card { 
+    border: 7px dotted lightpink;
+
+
+  }
+
 
   .card-header {
-    height: 200px;
+    height: 100px;
     text-align: center;
+    background-color: fff(245, 227, 241);
   }
 
   .emma {
-    font-family: 'Princess Sofia';
-    font-size: 31px;
+    font-family: 'Great Vibes';
+    font-size: 40px;
+  }
+  .emma span {
+    padding: 10px;
   }
 
   .emma-image {
-    width: 20%;
-    position: absolute;
-    transform: translate3d(86px,-179px,0px);
+    width: 15%;
+    /*transform: translate3d(86px,-179px,0px); */
   }
+
+  .jillian {
+    font-family: 'Roboto Slab';
+    font-size: 31px;
+  }
+  .jillian span {
+    padding: 10px;
+  }
+
+  .contact-section {
+    position: relative;
+    /* background-image: url('images/YellowArrowWebsite.gif'); */
+
+  }
+  
+  .contact-section p {
+    position: relative;
+    z-index: 9999;
+  }
+
+  .arrowimage {
+    width: 20%;
+    /* transform: translate(10px, -30px); */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  
+  }
+  .haley {
+    font-family: 'Xanh Mono';
+    font-size: 31px;
+
+  }
+
+  .haley span {
+    padding: 10px;
+  }
+
+.cadence {
+  font-family: 'Lobster';
+  font-size: 31px;
+}
+.haley-image {
+  width: 11%;
+}
+.cadence-image {
+  width: 10%;
+}
+  
+h6 {
+  text-align: center;
+}
+.indieflower {
+  font-family: 'Indie Flower';
+  
+}
+.jillian-image {
+  width: 15%;
+}
+
+
+
+
+ul.services {
+  border: 1px solid lightgray;
+  box-shadow: 0px 0px 18px 1px steelblue;
+  padding: 20px;
+  width: max-content;
+  margin-top: 40px auto;
+  margin: 40px auto;
+}
+
+li {
+  list-style: none;
+  color: steelblue;
+  font-size: 20px;
+}
