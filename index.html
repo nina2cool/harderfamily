@@ -27,7 +27,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
 
   <title>Harder Family</title>
   <style>
@@ -38,32 +38,13 @@
 
 <body>
   <header>
-    <div class="collapse bg-dark" id="navbarHeader">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-md-7 py-4">
-            <h4 class="text-white">About</h4>
-            <p class="text-muted">Need help with your kids, pets, or mail? Call or text our mom with what you need, and
-              she will coordinate with us on who is available.</p>
-          </div>
-          <div class="col-sm-4 offset-md-1 py-4">
-            <h4 class="text-white">Contact</h4>
-            <ul class="list-unstyled">
-              <li><a href="tel:2144175679" class="text-white">Christina Harder 214.417.5679</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
+
     <div class="navbar navbar-dark bg-dark shadow-sm">
       <div class="container d-flex justify-content-between">
         <a href="#" class="navbar-brand d-flex align-items-center">
           <strong>Sisters' Sitting Services</strong>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
-          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+
       </div>
     </div>
   </header>
@@ -73,17 +54,14 @@
     <section class="jumbotron text-center">
       <div class="container">
         <h1>Sisters' Sitting Services</h1>
+        <h5>Located in SW Austin near Circle C</h5>
         <p class="lead text-muted">We are 4 sisters who would love to help you with all your sitting and mother's helper
           needs.</p>
-        <!-- <p>
-          <a href="#" class="btn btn-primary my-2">Main call to action</a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-        </p> -->
         <ul class="services">
           <li>Babysitting</li>
           <li>Mother's Helpers</li>
           <li>Petsitting</li>
-          <li>Plantsitting and vacation services</li>
+          <li>Plant Sitting and vacation services</li>
           <li>Garbage concierge</li>
           <li>Pet walking</li>
           <li>Mail and package pickup</li>
@@ -91,55 +69,255 @@
 
         <h3>How it works</h3>
         <div class="contact-section">
-          <p>Call or text our mom with what you need, and she will coordinate with us on who is available.<br> Call
+          <p>Text our mom with what you need, and she will coordinate with us on who is available.<br> Text
             Christina
-            Harder at 214-417-5679 or email at christinalmcmillan@gmail.com<br>See below for our rates.
+            Harder at 214-417-5679<br>See below for our rates.
           </p>
           <img class="arrowimage" src="images/YellowArrowWebsite.gif">
         </div>
       </div>
     </section>
-    <section>
+    <section class="container py-5">
+      <h2>Services and Rates</h2>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Accordion Item #1
+          <h2 class="accordion-header" id="heading1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+              aria-expanded="true" aria-controls="collapse1">
+              Babysitting<span class="caret">&#9660;</span>
             </button>
           </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
+            data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <p>Date night? Movies with older children? Parties? Just want to get away from your kids? We can help!</p>
+              <table class="table table-bordered">
+                <thead class="thead-light">
+                  <th>Service</th>
+                  <th>Rate</th>
+                </thead>
+                <tr>
+                  <td>
+                    1-3 children
+                  </td>
+                  <td>$15/hour</td>
+                </tr>
+                <tr>
+                  <td>
+                    4+ children
+                  </td>
+                  <td>$20/hour (two sitters)</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Accordion Item #2
+          <h2 class="accordion-header" id="heading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+              Mother's Helpers<span class="caret">&#9660;</span>
             </button>
           </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+            data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <p>Need help with your little ones while you are at home? We know firsthand how hard it can be on mothers
+                and other caregivers. Let us come over and entertain your kid(s) while you are at home so you can work
+                on other things. We can discuss rates based on the nunber and ages of your children.</p>
+              <table class="table table-bordered">
+                <thead class="thead-light">
+                  <th>Service</th>
+                  <th>Rate</th>
+                </thead>
+                <tr>
+                  <td>
+                    1-3 children
+                  </td>
+                  <td>$10/hour</td>
+                </tr>
+                <tr>
+                  <td>
+                    4+ children
+                  </td>
+                  <td>$14/hour (two sitters)</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Accordion Item #3
+          <h2 class="accordion-header" id="heading3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+              Pet Sitting<span class="caret">&#9660;</span>
             </button>
           </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3"
+            data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <p>We love pets! We can help you out while you are out of town. Cats and dogs need to stay at your house,
+                but we can bring small rodents and fish to our place if that is easier or better. We can feed, water,
+                walk, clean up after, and play with your furry or scaled family members.</p>
+              <table class="table table-bordered">
+                <thead class="thead-light">
+                  <th>Service</th>
+                  <th>Rate</th>
+                </thead>
+                <tr>
+                  <td>
+                    Pet Sitting (within 1 mile of our home)
+                  </td>
+                  <td>$8 per day</td>
+                </tr>
+                <tr>
+                  <td>
+                    Pet Sitting (greater than 1 mile of our home)
+                  </td>
+                  <td>$10 per day</td>
+                </tr>
+              </table>
             </div>
           </div>
         </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+              Plant Sitting and Vacation Services<span class="caret">&#9660;</span>
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Trust us to help you out while you are away. We can water plants, turn on/off lights, water outdoor
+                gardens, turn off sprinklers. We can combine this with our other services and can provide a quote.</p>
+              <table class="table table-bordered">
+                <thead class="thead-light">
+                  <th>Service</th>
+                  <th>Rate</th>
+                </thead>
+                <tr>
+                  <td>
+                    Plant sitting / vacation services (within 1 mile of our home)
+                  </td>
+                  <td>$4 per visit</td>
+                </tr>
+                <tr>
+                  <td>
+                    Plant sitting / vacation services (greater than 1 mile of our home)
+                  </td>
+                  <td>$5 per visit</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+              Garbage Concierge<span class="caret">&#9660;</span>
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <table class="table table-bordered">
+                <thead class="thead-light">
+                  <th>Service</th>
+                  <th>Rate</th>
+                </thead>
+                <tr>
+                  <td>
+                    <ul>
+                      <li>Set your garbage and recycling cans on the curb on Sunday evening</li>
+                      <li>Bring your cans back in on Mondays</li>
+                    </ul>
+                  </td>
+                  <td>$5 per weekend</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading6">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+              Pet Walking<span class="caret">&#9660;</span>
+            </button>
+          </h2>
+          <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>Let one of us walk your dog(s) while you are out of town or even just at work. We can offer discounts
+                for long-term relationships or daily/weekly rates.</p>
+              <table class="table table-bordered">
+                <thead class="thead-light">
+                  <th>Service</th>
+                  <th>Rate</th>
+                </thead>
+                <tr>
+                  <td>
+                    Walk your dog(s) (within 1 mile of our home)
+                  </td>
+                  <td>$4 per occurance</td>
+                </tr>
+                <tr>
+                  <td>
+                    Walk your dog(s) (greater than 1 mile of our home)
+                  </td>
+                  <td>$5 per occurance</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading7">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+              Mail and package pickup<span class="caret">&#9660;</span>
+            </button>
+          </h2>
+          <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <p>We can hold or store your mail and packages, or place them securelyl inside your house.</p>
+              <table class="table table-bordered">
+                <thead class="thead-light">
+                  <th>Service</th>
+                  <th>Rate</th>
+                </thead>
+                <tr>
+                  <td>
+                    Pick up mail and/or packages (within 1 mile of our home)
+                  </td>
+                  <td>$2 per occurance</td>
+                </tr>
+                <tr>
+                  <td>
+                    Pick up mail and/or packages (greater than 1 mile of our home)
+                  </td>
+                  <td>$3 per occurance</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
-     <section>Rates</section>
     <div class="album py-5 bg-light">
       <div class="container">
 
@@ -150,12 +328,12 @@
                   src="images/jilliansun2.png"><span>Jillian</span><img class="jillian-image"
                   src="images/jilliansun2.png"></div>
               <div class="card-body">
-                <p class="card-text">Hi, I’m Jillian, I’m 14, and I am a freshman at Bowie. I have 8 siblings, and two
+                <p class="card-text">Hi, I’m Jillian, I’m 16, and going into 11th grade. I have 8 siblings, and two
                   of
-                  them are 2 years old. I love to help take care of and play with them. I can babysit, petsit,
+                  them are 3 years old. I love to help take care of and play with them. I can babysit, petsit,
                   plant-sit, tutor, or anything else like that! I am CPR, Red Cross babysitting, and first aid
                   certified. I love to play games and have fun with younger kids. I am in Girl Scouts, and I am a
-                  counselor during the summer for Girl Scout Zilker Day Camp. My hobbies include: Dance,
+                  counselor during the summer for Girl Scout Zilker Day Camp. My hobbies include: Drawing, dance,
                   digital photography, and acrobatics. I look forward to hearing back from you! :)</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <small class="text-muted jillian">- Jillian</small>
@@ -169,10 +347,11 @@
                   class="emma-image" src="images/pansy.png"></div>
 
               <div class="card-body">
-                <p class="card-text">Hi, my name is Emma! I’m 14 and I am in 8th grade. I am a Caddette in Girl Scouts, and I
+                <p class="card-text">Hi, my name is Emma! I’m 15 and going into 10th grade. I am a Senior in Girl
+                  Scouts, and I
                   was a counselor at the Girl Scout Zilker Day Camp during the summer as well. I have 6 siblings, 3 of
                   them
-                  are babies under 3 years old, and I love to play and take care of them! I am available most of the
+                  are toddlers under 4 years old, and I love to play and take care of them! I am available most of the
                   time to babysit, petsit, plant-sit, or do odd jobs. I am CPR certified, and have taken a class on
                   first aid and have taken a class on babysitting in general with Red Cross. If your child needs
                   some tutoring, I can do that as well. I am in advanced math, and Pre-AP in everything else. Please
@@ -188,10 +367,8 @@
               <div class="card-header cadence"><img class="cadence-image" src="images/cat-left.png">Cadence<img
                   class="cadence-image" src="images/cat-right.png"></div>
               <div class="card-body">
-                <p class="card-text">Hi, my name is Cadence! I am 12 years old and and am in the 7th grade. I am not CPR
-                  certified, but I know the basics. I have two baby brothers that I love to hang out with. I know how to
-                  change, feed, hold, play, etc. I may be too young to babysit on my own yet, but if you would want to
-                  pair me with one of my older siblings, that would be fine! :) I am also available as a mother's
+                <p class="card-text">Hi, my name is Cadence! I am 14 years old and and am going into 9th grade. I am
+                  available as a mother's
                   helper,
                   plant sitter, pet sitter, etc. I can also help with tutoring kids younger than 9. I look forward to
                   hearing from you!</p>
@@ -207,10 +384,13 @@
               <div class="card-header haley"><img class="haley-image" src="images/horse-left.png"><span>Haley</span><img
                   class="haley-image" src="images/horse-right.png"></div>
               <div class="card-body">
-                <p class="card-text">Hi, my name is Haley! I am 11 and am in the 5th grade. I am available to
-                  pet-sit and plant-sit. I also have 3 baby siblings and a dog so I have lots of experience with pets
-                  and babies. Since I am not old enough to baby-sit by myself, I can go along with one of my sisters and
-                  help(when there are 3 or more children). I also used to have some pet rodents, so I have experience
+                <p class="card-text">Hi, my name is Haley! I am 12 and going into 7th grade. I am available to
+                  pet-sit and plant-sit, pick up mail, walk pets, and as a mother's helper. I also have 3 toddler
+                  siblings and 2 dogs so I have lots of experience with pets
+                  and small children. Since I am not old enough to baby-sit by myself, I can go along with one of my
+                  sisters and
+                  help(when there are 3 or more children), or come over as a mother's helper to help while you are at
+                  home. I also used to have some pet rodents, so I have experience
                   with
                   them too. I can’t wait to work with you!!!</p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -230,12 +410,14 @@
       <p class="float-right">
         <a href="#">Back to top</a>
       </p>
-      <p>&copy; 2021. Harder Dev.</p>
+      <p>&copy; 2021-2022. Harder Dev.</p>
     </div>
     <h6>Website created and styled by Emma</h6>
   </footer>
   <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
